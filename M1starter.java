@@ -3,16 +3,16 @@
 /**************************************************************
 BE SURE TO CHANGE THE NEXT SEVERAL LINES, USING YOUR REAL NAME.
 
-    MY FIRST NAME IS......William
-    MY MIDDLE NAME IS.....Henry
-    MY LAST NAME IS.......Harrison
+    MY FIRST NAME IS......Richard
+    MY MIDDLE NAME IS.....chris
+    MY LAST NAME IS.......Faniran
     
 PICK 3 WORDS THAT START WITH YOUR INITIALS, using lower case letters:
 
-    first word............wolf
-    second word...........hamburger
-    third word............hippopotamus
-    
+    first word............rabbit
+    second word...........corn
+    third word............fox
+    !
 USE THESE 3 WORDS TO NAME ALL VARIABLES FOR 3 POOL BALLS.
 (You may abbreviate any words, but start with same letter.)
 ***************************************************************/
@@ -20,9 +20,9 @@ USE THESE 3 WORDS TO NAME ALL VARIABLES FOR 3 POOL BALLS.
 
 //// GLOBALS FOR 3 colored balls ////
 //// (Assume ball diameter is 30.) ////
-float wolfX,  wolfY,  wolfDX,  wolfDY;          //++++ MODIFY THIS.  Don' use "wolf". ++++
-float hamX,  hamY,  hamDX,  hamDY;              //++++ MODIFY THIS.  Don' use "ham". ++++
-float hippoX,  hippoY,  hippoDX,  hippoDY;      //++++ MODIFY THIS.  Don' use "hippo". ++++
+float rabX,  rabY,  rabDX,  rabDY;          //++++ MODIFY THIS.  Don' use "wolf". ++++
+float cornX,  cornY,  cornDX,  cornDY;              //++++ MODIFY THIS.  Don' use "ham". ++++
+float foxX,  foxY,  foxDX,  foxDY;      //++++ MODIFY THIS.  Don' use "hippo". ++++
             //++++ MODIFY THESE DECLARATIONS -- Do not use "wolf" or "ham" or "hippo" ++++
 
 
@@ -44,11 +44,16 @@ int score=0,m=0,k=0;
 
 //// SETUP:  size and table
 void setup() {
-    size( 500, 303 );          //++++ CHANGE THE SIZE -- see instructions! ++++
+    size( 640, 480 );          //++++ CHANGE THE SIZE -- see instructions! ++++
   
     //// MODIFY THIS CODE TO MAKE TABLE CENTERED IN WINDOW.  ++++
 
     // Table boundaries
+    left=50;
+    right=450;
+    top=100;
+    bottom=250;
+    middle=250;
  }
 
 
@@ -117,4 +122,7 @@ void messages() {
 
     //++++ ADD YOUR OWN CODE HERE. ++++
 
+    
+
 }
+
