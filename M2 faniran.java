@@ -105,7 +105,8 @@ void keyPressed() {
    else feet=5;
       
   }
-    
+      if (key == 'p')  {tableRed= 255; tableGreen=70; tableBlue=200;}     // pink pool table
+
  
 }
 
